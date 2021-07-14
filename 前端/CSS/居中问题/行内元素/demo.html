@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>行内元素多行居中显示</title>
+</head>
+<style>
+  *{
+    margin: 0; height: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    display: table;
+    height: 500px; width: 500px;
+    border: 3px dashed darkgreen;
+    float: left; margin-right: 10px;
+  }
+  .child{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  #sl{
+    height: 500px; width: 500px;
+    border: 3px dashed darkgreen;
+    line-height: 500px; text-align: center;
+    float: left;
+  }
+</style>
+<body>
+  <div class="container">
+    <span class="child">
+      inline elements display in center.
+      Deserunt fugiat neque eius explicabo molestias. Facere pariatur et soluta enim sit. Maiores voluptatibus reprehenderit corrupti repudiandae ducimus adipisci tempora impedit pariatur. Sapiente maxime magni adipisci eos quo nam omnis mollitia deleniti. Cumque alias earum quasi temporibus adipisci. Nulla omnis et numquam aut doloremque nostrum alias doloremque.
+      Ut voluptas at dolore. Quia dolor magni modi. Voluptatem ipsa non illum atque. Voluptatem quisquam tempore est et. Et libero explicabo explicabo assumenda iure voluptatem.
+      Culpa dolor id dolores facilis rerum rem provident. Eum iure delectus eum eos alias fugiat aut quia. Velit quam dolorem qui sit quis sunt beatae. Et placeat recusandae eos.
+    </span>
+  </div>
+  <div id="sl">
+    单行垂直居中+水平居中
+  </div>
+</body>
+</html>
