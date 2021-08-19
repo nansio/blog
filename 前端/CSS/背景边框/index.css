@@ -1,0 +1,7 @@
+.box-shadow{
+  height: 100px;
+  width: 100px;
+  background-color: cadetblue;
+  text-align: center; line-height: 100px;
+  box-shadow:  10px 10px 5px #888;
+}
