@@ -16,3 +16,7 @@ wget -N --no-check-certificate "https://github.000060000.xyz/tcpx.sh" && chmod +
 ### SSR查看命令
 
 https://www.cnblogs.com/trustyang/p/7953827.html
+
+enable BBR on Ubuntu 20.04 LTS
+
+https://idroot.us/enable-bbr-ubuntu-20-04/
